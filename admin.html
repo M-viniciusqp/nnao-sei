@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciar Cardápio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Gerenciar Cardápio</h1>
+  </header>
+  <main>
+    <form id="product-form">
+        <input type="text" id="name" placeholder="Nome do Produto" required>
+        <input type="number" id="price" placeholder="Preço (R$)" required>
+        <input type="file" id="image" accept="image/*" required>
+        <button type="submit">Adicionar Produto</button>
+      </form>
+      <section id="product-list">
+        <!-- Produtos cadastrados serão exibidos aqui -->
+      </section>      
+  </main>
+  <footer>
+    <p>&copy; 2025 Meu Restaurante</p>
+  </footer>
+  <script src="admin.js"></script>
+</body>
+</html>
